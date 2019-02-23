@@ -2,9 +2,9 @@
   {
     "id": 1,
     "name": "sample conference 2019",
-    "eventDate": ["20190401", "20190402"],
-    "entryStartDate": "20190301",
-    "entryEndDate": "20190331",
+    "eventDate": ["2019/04/01", "2019/04/02"],
+    "entryStartDate": "2019/03/01",
+    "entryEndDate": "2019/03/31",
     "url": "http://example.com",
     "description": "sample conference",
     "tags": ["sample", "test"]
@@ -12,9 +12,9 @@
   {
     "id": 2,
     "name": "sample conference 2019",
-    "eventDate": ["20190401", "20190402"],
-    "entryStartDate": "20190301",
-    "entryEndDate": "20190331",
+    "eventDate": ["2019/04/01", "2019/04/02"],
+    "entryStartDate": "2019/03/01",
+    "entryEndDate": "2019/03/31",
     "url": "http://example.com",
     "description": "sample conference",
     "tags": ["sample", "test"]
@@ -22,9 +22,9 @@
   {
     "id": 3,
     "name": "sample conference 2019",
-    "eventDate": ["20190401", "20190402"],
-    "entryStartDate": "20190301",
-    "entryEndDate": "20190331",
+    "eventDate": ["2019/04/01", "2019/04/02"],
+    "entryStartDate": "2019/03/01",
+    "entryEndDate": "2019/03/31",
     "url": "http://example.com",
     "description": "sample conference",
     "tags": ["sample", "test"]
@@ -32,9 +32,9 @@
   {
     "id": 4,
     "name": "sample conference 2019",
-    "eventDate": ["20190401", "20190402"],
-    "entryStartDate": "20190301",
-    "entryEndDate": "20190331",
+    "eventDate": ["2019/04/01", "2019/04/02"],
+    "entryStartDate": "2019/03/01",
+    "entryEndDate": "2019/03/31",
     "url": "http://example.com",
     "description": "sample conference",
     "tags": ["sample", "test"]
@@ -42,9 +42,9 @@
   {
     "id": 5,
     "name": "sample conference 2019",
-    "eventDate": ["20190401", "20190402"],
-    "entryStartDate": "20190301",
-    "entryEndDate": "20190331",
+    "eventDate": ["2018/04/01", "2018/04/02"],
+    "entryStartDate": "2019/03/01",
+    "entryEndDate": "2019/03/31",
     "url": "http://example.com",
     "description": "sample conference",
     "tags": ["sample", "test"]

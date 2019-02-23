@@ -1,46 +1,113 @@
 <template>
   <div id="app">
     <div class="logo_area">
-      <img alt="Vue logo" src="./assets/logo.png" style="width: 100px;">
+      <!-- <img alt="Vue logo" src="./assets/logo.png" style="width: 100px;"> -->
+      Conference List
+    </div>
+    <div class="sub_area">
+      日本国内で開催されるカンファレンス等の大型イベントのみを集めたリスト
     </div>
     <div class="input_area">
-      <input type="text" placeholder="Find your favorite conference ..." class="input_text">
+      <input
+        type="text"
+        placeholder="Find your favorite conference ..."
+        v-model="filterText"
+        @input="filterList"
+        class="input_text"
+      >
     </div>
     <div class="card_area">
-      <Card v-for="d in data" :data="d" :key="d.id" />
+      <Card v-for="d in data" :data="d" :key="d.id"/>
+    </div>
+    <div class="github" @click="openGithub">
+      <i class="fab fa-github"></i>
     </div>
   </div>
 </template>
 
 <script>
-import Card from './components/Card.vue'
-import data from './data/items.json'
+import Card from "./components/Card.vue";
+import items from "./data/items.json";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     Card
   },
   data() {
     return {
-      data: data
+      data: [],
+      filterText: ""
+    };
+  },
+  created() {
+    this.filterList();
+  },
+  methods: {
+    filterList() {
+      // 今日
+      const today = new Date();
+      // 開催中 or 開催前イベントリスト
+      let beforeList = [];
+      // 過去のイベントリスト
+      let afterList = [];
+
+      items.forEach(d => {
+        let flg = false;
+
+        // 入力欄が空でない場合
+        if (this.filterText) {
+          if (
+            !d.name.includes(this.filterText) ||
+            !d.description.includes(this.filterText)
+          ) {
+            return;
+          }
+        }
+
+        d.eventDate.forEach(ed => {
+          const eventDate = new Date(ed);
+          // イベント開催当日 or イベント開催前の場合
+          if (
+            today.toString() === eventDate.toString() ||
+            today.getTime() < eventDate.getTime()
+          ) {
+            if (!flg) {
+              d.isNow = true;
+              flg = true;
+              beforeList.push(d);
+            }
+          }
+        });
+        // イベント開催後の場合
+        if (!flg) {
+          d.isNow = false;
+          afterList.push(d);
+        }
+      });
+
+      let result = beforeList.concat(afterList);
+      this.data = result.concat();
+    },
+    openGithub() {
+      window.open('https://github.com/cigalecigales/conference-list')
     }
   }
-}
+};
 </script>
 
 <style>
 * {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
   font-size: 16px;
   box-sizing: border-box;
   outline: none;
 }
 
-html, body {
+html,
+body {
   background: #fdfdfd;
 }
 
@@ -48,6 +115,14 @@ html, body {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sub_area {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
 }
 
 .input_area {
@@ -60,7 +135,7 @@ html, body {
   width: 100%;
   padding: 5px 8px;
   border-radius: 3px;
-  border: 1px solid #ffbb87;
+  border: 1px solid #FFA500;
 }
 
 .input_text:focus {
@@ -72,8 +147,29 @@ html, body {
   margin-bottom: 50px;
   padding: 5px;
   width: 95%;
-  column-count: 5;
+  column-count: 3;
   column-gap: 10px;
   margin-top: 30px;
+}
+
+.github {
+  background: linear-gradient(to top right, rgba(255,255,255,0) 50%, #FFA500 50.5%) no-repeat top left/100% 100%;
+  width: 60px;
+  height: 60px;
+  text-align: right;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.github:hover {
+  cursor: pointer;
+  background: linear-gradient(to top right, rgba(255,255,255,0) 50%, #f57868 50.5%) no-repeat top left/100% 100%;
+}
+
+.github > i {
+  font-size: 1.5rem;
+  padding: 6px;
+  color: #ffffff;
 }
 </style>
