@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Compiling the Node.js code
+      - npm i
+      - npm run build
+      - aws s3 cp --recursive dist/ s3://conference-list.com/
