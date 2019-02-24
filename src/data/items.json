@@ -1,52 +1,122 @@
 [
   {
     "id": 1,
-    "name": "sample conference 2019",
-    "eventDate": ["2019/04/01", "2019/04/02"],
-    "entryStartDate": "2019/03/01",
-    "entryEndDate": "2019/03/31",
-    "url": "http://example.com",
-    "description": "sample conference",
-    "tags": ["sample", "test"]
+    "name": "AWS Summit Tokyo 2019",
+    "eventDate": ["2019/06/12", "2019/06/13", "2019/06/14"],
+    "url": "https://aws.amazon.com/jp/summits/tokyo-2019/",
+    "description": "AWSに関する情報交換・コラボレーション・学習を行うことができるカンファレンス。",
+    "tags": ["AWS"]
   },
   {
     "id": 2,
-    "name": "sample conference 2019",
-    "eventDate": ["2019/04/01", "2019/04/02"],
-    "entryStartDate": "2019/03/01",
-    "entryEndDate": "2019/03/31",
-    "url": "http://example.com",
-    "description": "sample conference",
-    "tags": ["sample", "test"]
+    "name": "JJUG CCC 2019 Spring",
+    "eventDate": ["2019/05/18"],
+    "url": "http://www.java-users.jp/ccc2019spring/",
+    "description": "Javaに関するカンファレンス。",
+    "tags": ["Java"]
   },
   {
     "id": 3,
-    "name": "sample conference 2019",
-    "eventDate": ["2019/04/01", "2019/04/02"],
-    "entryStartDate": "2019/03/01",
-    "entryEndDate": "2019/03/31",
-    "url": "http://example.com",
-    "description": "sample conference",
-    "tags": ["sample", "test"]
+    "name": "DroidKaigi",
+    "eventDate": ["2019/02/07", "2019/02/08"],
+    "url": "https://droidkaigi.jp/2019/",
+    "description": "Android技術情報の共有・コミュニケーションを目的としたカンファレンス。",
+    "tags": ["Android"]
   },
   {
     "id": 4,
-    "name": "sample conference 2019",
-    "eventDate": ["2019/04/01", "2019/04/02"],
-    "entryStartDate": "2019/03/01",
-    "entryEndDate": "2019/03/31",
-    "url": "http://example.com",
-    "description": "sample conference",
-    "tags": ["sample", "test"]
+    "name": "HTML5 Conference 2018",
+    "eventDate": ["2018/11/15"],
+    "url": "https://events.html5j.org/conference/2018/11/",
+    "description": "Web技術に関するノウハウ・最新情報の共有・交流を目的としたカンファレンス。",
+    "tags": ["HTML5", "Web"]
   },
   {
     "id": 5,
-    "name": "sample conference 2019",
-    "eventDate": ["2018/04/01", "2018/04/02"],
-    "entryStartDate": "2019/03/01",
-    "entryEndDate": "2019/03/31",
-    "url": "http://example.com",
-    "description": "sample conference",
-    "tags": ["sample", "test"]
+    "name": "東京Node学園祭2018",
+    "eventDate": ["2018/11/23", "2018/11/24"],
+    "url": "https://nodefest.jp/2018/",
+    "description": "Node.jsに関するカンファレンス。",
+    "tags": ["Node.js"]
+  },
+  {
+    "id": 6,
+    "name": "ScalaMatsuri",
+    "eventDate": ["2019/06/27", "2019/06/28", "2019/06/29"],
+    "url": "http://2019.scalamatsuri.org/",
+    "description": "Scalaに関するカンファレンス。",
+    "tags": ["Scala"]
+  },
+  {
+    "id": 7,
+    "name": "PHP Conference 2019",
+    "eventDate": ["2019/12/01"],
+    "url": "http://phpcon.php.gr.jp/2019/",
+    "description": "PHPに関するカンファレンス。",
+    "tags": ["PHP"]
+  },
+  {
+    "id": 8,
+    "name": "PyCon JP 2019",
+    "eventDate": ["2019/09/16", "2019/09/17"],
+    "url": "https://www.pycon.jp/",
+    "description": "Pythonに関するカンファレンス。",
+    "tags": ["Python"]
+  },
+  {
+    "id": 9,
+    "name": "RubyKaigi 2019",
+    "eventDate": ["2019/04/18", "2019/04/19", "2019/04/20"],
+    "url": "https://rubykaigi.org/2019",
+    "description": "Rubyに関するカンファレンス。",
+    "tags": ["Ruby"]
+  },
+  {
+    "id": 10,
+    "name": "Go Conference 2018 Autumn",
+    "eventDate": ["2018/11/25"],
+    "url": "https://gocon.connpass.com/event/109368/",
+    "description": "Goに関するカンファレンス。",
+    "tags": ["Go"]
+  },
+  {
+    "id": 11,
+    "name": "YAPC::Tokyo 2019",
+    "eventDate": ["2019/01/26"],
+    "url": "https://yapcjapan.org/2019tokyo/",
+    "description": "Perlに関するカンファレンス。",
+    "tags": ["Perl"]
+  },
+  {
+    "id": 12,
+    "name": "VimConf 2018",
+    "eventDate": ["2018/11/24"],
+    "url": "https://vimconf.org/2018/",
+    "description": "Vimに関するカンファレンス。",
+    "tags": ["Vim"]
+  },
+  {
+    "id": 12,
+    "name": "Cookpad TechConf 2019",
+    "eventDate": ["2019/02/27"],
+    "url": "https://techconf.cookpad.com/2019/",
+    "description": "クックパッドのエンジニアやデザイナーのサービス開発への取り組み、その過程で得た技術的知見などを共有するカンファレンス。",
+    "tags": ["Cookpad"]
+  },
+  {
+    "id": 13,
+    "name": "builderscon Tokyo 2019",
+    "eventDate": ["2019/10/29", "2019/10/30", "2019/10/31"],
+    "url": "http://2019.tokyo.builderscon.io/",
+    "description": "「知らなかった、を聞く」をテーマとした技術を愛するギークたち向けのお祭り。",
+    "tags": ["all"]
+  },
+  {
+    "id": 14,
+    "name": "Developers Summit 2019",
+    "eventDate": ["2019/02/14", "2019/02/15"],
+    "url": "https://event.shoeisha.jp/devsumi/20190214",
+    "description": "「SHARE YOUR FUN!」をテーマにして、技術を愛する人達が集まります。",
+    "tags": ["all"]
   }
 ]
