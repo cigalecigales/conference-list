@@ -5,7 +5,7 @@
       Conference List
     </div>
     <div class="sub_area">
-      日本国内で開催されるカンファレンス等の大型イベントのみを集めたリスト
+      日本国内で開催されるカンファレンス等のIT系大型イベントのみを集めたリスト
     </div>
     <div class="input_area">
       <input
