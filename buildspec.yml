@@ -7,4 +7,5 @@ phases:
       - echo Compiling the Node.js code
       - npm i
       - npm run build
-      - aws s3 cp --recursive dist/ s3://conference-list.com/
+      - aws s3 rm s3://conference-list.com/src
+      - aws s3 cp --recursive dist/ s3://conference-list.com/src/
