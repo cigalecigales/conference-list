@@ -2,19 +2,19 @@ export default {
   checkDay(day) {
     switch(day) {
       case 0:
-        return 'Sun'
+        return '日'
       case 1:
-        return 'Mon'
+        return '月'
       case 2:
-        return 'Tue'
+        return '火'
       case 3:
-        return 'Wed'
+        return '水'
       case 4:
-        return 'Thu'
+        return '木'
       case 5:
-        return 'Fri'
+        return '金'
       case 6:
-        return 'Sut'
+        return '土'
     }
   }
 }

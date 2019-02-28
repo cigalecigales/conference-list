@@ -1,11 +1,9 @@
 <template>
-  <div class="card" @click="openWebsite(data.url)" :class="{ now: data.isNow }">
+  <div class="card" @click="openWebsite(data.url)" :class="eventStatus(data.status)">
     <div class="name">
       {{ data.name }}
     </div>
-    <div class="eventDate">
-      {{ eventDate }}
-    </div>
+    <div class="eventDate" v-html="eventDate"></div>
     <div class="description">
       {{ data.description }}
     </div>
@@ -28,6 +26,9 @@ export default {
     Tag
   },
   computed: {
+    /**
+     * 開催日付のフォーマット
+     */
     eventDate() {
       let dataList = []
       this.data.eventDate.forEach(d => {
@@ -36,11 +37,29 @@ export default {
         dataList.push(d + `(${day})`)
       })
       return dataList.join(', ')
-    }
+    },
+    
   },
   methods: {
+    /**
+     * イベントクリック時の処理
+     */
     openWebsite(url) {
       window.open(url)
+    },
+
+    /**
+     * イベントのステータスチェック処理（当日、未来、過去）
+     */
+    eventStatus(status) {
+      switch(status) {
+        case 1:
+          return 'today'
+        case 2:
+          return 'future'
+        case 3:
+          return ''
+      }
     }
   }
 }
@@ -52,9 +71,6 @@ export default {
   border: 1px solid #dddddd;
   border-radius: 3px;
   padding: 10px;
-  -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid;
   margin-bottom: 10px;
   transition: 0.2s;
   color: #2c3e50;
@@ -66,7 +82,13 @@ export default {
   color: #ffffff !important;
 }
 
-.card.now {
+.card.today {
+  background: #ff1493 !important;
+  cursor: pointer;
+  color: #ffffff !important;
+}
+
+.card.future {
   background: #FFF05A;
 }
 

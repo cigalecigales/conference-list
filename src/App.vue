@@ -4,9 +4,7 @@
       <!-- <img alt="Vue logo" src="./assets/logo.png" style="width: 100px;"> -->
       Conference List
     </div>
-    <div class="sub_area">
-      日本国内で開催されるカンファレンス等のIT系大型イベントのみを集めたリスト
-    </div>
+    <div class="sub_area">日本国内で開催されるカンファレンス等のIT系大型イベントのみを集めたリスト</div>
     <div class="input_area">
       <input
         type="text"
@@ -46,14 +44,15 @@ export default {
   methods: {
     filterList() {
       // 今日
-      const today = new Date();
+      const today = new Date()
       // 開催中 or 開催前イベントリスト
       let beforeList = [];
       // 過去のイベントリスト
       let afterList = [];
 
       items.forEach(d => {
-        let flg = false;
+        // 追加済みフラグ
+        let addedFlg = false;
 
         // 入力欄が空でない場合
         if (this.filterText) {
@@ -68,26 +67,31 @@ export default {
         d.eventDate.forEach(ed => {
           const eventDate = new Date(ed);
           // イベント開催当日 or イベント開催前の場合
-          if (
-            today.toString() === eventDate.toString() ||
-            today.getTime() < eventDate.getTime()
-          ) {
-            if (!flg) {
-              d.isNow = true;
-              flg = true;
-              beforeList.push(d);
+          if (today.toString() === eventDate.toString()) {
+            if (!addedFlg) {
+              // イベント当日
+              d.status = 1;
+              addedFlg = true;
+              beforeList.push(d)
+            }
+          } else if (today.getTime() < eventDate.getTime()) {
+            if (!addedFlg) {
+              // イベント開催前
+              d.status = 2;
+              addedFlg = true;
+              beforeList.push(d)
             }
           }
         });
         // イベント開催後の場合
-        if (!flg) {
-          d.isNow = false;
-          afterList.push(d);
+        if (!addedFlg) {
+          d.status = 3;
+          afterList.push(d)
         }
       });
 
-      let result = beforeList.concat(afterList);
-      this.data = result.concat();
+      let result = beforeList.concat(afterList)
+      this.data = result.concat()
     },
     openGithub() {
       window.open('https://github.com/cigalecigales/conference-list')
@@ -135,7 +139,7 @@ body {
   width: 100%;
   padding: 5px 8px;
   border-radius: 3px;
-  border: 1px solid #FFA500;
+  border: 1px solid #ffa500;
 }
 
 .input_text:focus {
@@ -147,13 +151,23 @@ body {
   margin-bottom: 50px;
   padding: 5px;
   width: 95%;
-  column-count: 3;
-  column-gap: 10px;
+  /* column-count: 3;
+  column-gap: 10px; */
   margin-top: 30px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+  grid-auto-rows: auto;
+  
 }
 
 .github {
-  background: linear-gradient(to top right, rgba(255,255,255,0) 50%, #FFA500 50.5%) no-repeat top left/100% 100%;
+  background: linear-gradient(
+      to top right,
+      rgba(255, 255, 255, 0) 50%,
+      #ffa500 50.5%
+    )
+    no-repeat top left/100% 100%;
   width: 60px;
   height: 60px;
   text-align: right;
@@ -164,7 +178,12 @@ body {
 
 .github:hover {
   cursor: pointer;
-  background: linear-gradient(to top right, rgba(255,255,255,0) 50%, #f57868 50.5%) no-repeat top left/100% 100%;
+  background: linear-gradient(
+      to top right,
+      rgba(255, 255, 255, 0) 50%,
+      #f57868 50.5%
+    )
+    no-repeat top left/100% 100%;
 }
 
 .github > i {

@@ -96,7 +96,7 @@
     "tags": ["Vim"]
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "Cookpad TechConf 2019",
     "eventDate": ["2019/02/27"],
     "url": "https://techconf.cookpad.com/2019/",
@@ -104,7 +104,7 @@
     "tags": ["Cookpad"]
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "builderscon Tokyo 2019",
     "eventDate": ["2019/10/29", "2019/10/30", "2019/10/31"],
     "url": "http://2019.tokyo.builderscon.io/",
@@ -112,11 +112,51 @@
     "tags": ["all"]
   },
   {
-    "id": 14,
+    "id": 15,
     "name": "Developers Summit 2019",
     "eventDate": ["2019/02/14", "2019/02/15"],
     "url": "https://event.shoeisha.jp/devsumi/20190214",
     "description": "「SHARE YOUR FUN!」をテーマにして、技術を愛する人達が集まります。",
     "tags": ["all"]
+  },
+  {
+    "id": 16,
+    "name": "Cloudera World Tokyo 2018",
+    "eventDate": ["2018/11/06"],
+    "url": "https://www.clouderaworldtokyo.com/",
+    "description": "クラウド環境に最適化された機械学習と分析向けの最先端プラットフォームを提供するCloudera が主催するイベント。",
+    "tags": ["クラウド", "Cloudera"]
+  },
+  {
+    "id": 17,
+    "name": "GTC Japan 2018",
+    "eventDate": ["2018/09/13", "2018/09/14"],
+    "url": "https://www.nvidia.com/ja-jp/gtc/",
+    "description": "NVIDIAが主催する日本最大のAI開発者のカンファレンス。",
+    "tags": ["NVIDIA", "AI"]
+  },
+  {
+    "id": 18,
+    "name": "次世代 Web カンファレンス",
+    "eventDate": ["2019/01/13"],
+    "url": "https://nextwebconf.connpass.com/event/103056/",
+    "description": "これからのWebについて考えるカンファレンス。",
+    "tags": ["Web"]
+  },
+  {
+    "id": 19,
+    "name": "システムテスト自動化カンファレンス2018",
+    "eventDate": ["2018/12/08"],
+    "url": "https://testautomationresearch.connpass.com/event/106559/",
+    "description": "システムテストの自動化に特化したカンファレンス。",
+    "tags": ["テスト自動化"]
+  },
+  {
+    "id": 20,
+    "name": "Vue Fes Japan 2018",
+    "eventDate": ["2018/11/03"],
+    "url": "https://vuefes.jp/",
+    "description": "日本初開催のVue.jsに関するカンファレンス。",
+    "tags": ["Vue.js", "Nuxt.js"]
   }
 ]
