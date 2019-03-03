@@ -20,6 +20,26 @@
     <div class="github" @click="openGithub">
       <i class="fab fa-github"></i>
     </div>
+    <div class="social">
+      <a 
+        href="https://twitter.com/share"
+        class="twitter-share-button"
+        data-url="http://conference-list.com/"
+        data-text="【Conference List】日本国内で開催されるカンファレンス等のIT系大型イベントのみを集めたリスト">
+          Tweet
+      </a>
+      <br>
+      <div
+        class="fb-like"
+        data-href="http://conference-list.com/"
+        data-layout="button_count"
+        data-action="like"
+        data-size="small"
+        data-show-faces="false"
+        style="margin-bottom: 10px;"
+        data-share="true">
+      </div>
+    </div>
   </div>
 </template>
 
@@ -190,5 +210,11 @@ body {
   font-size: 1.5rem;
   padding: 6px;
   color: #ffffff;
+}
+
+.social {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 </style>
