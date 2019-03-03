@@ -2,7 +2,7 @@
   <div id="app">
     <div class="logo_area">
       <!-- <img alt="Vue logo" src="./assets/logo.png" style="width: 100px;"> -->
-      Conference List
+      <h1>Conference List</h1>
     </div>
     <div class="sub_area">日本国内で開催されるカンファレンス等のIT系大型イベントのみを集めたリスト</div>
     <div class="input_area">
@@ -135,7 +135,7 @@ body {
   background: #fdfdfd;
 }
 
-.logo_area {
+.logo_area > h1 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
