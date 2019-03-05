@@ -158,5 +158,37 @@
     "url": "https://vuefes.jp/",
     "description": "日本初開催のVue.jsに関するカンファレンス。",
     "tags": ["Vue.js", "Nuxt.js"]
+  },
+  {
+    "id": 21,
+    "name": "Hadoop / Spark Conference Japan 2019",
+    "eventDate": ["2019/03/14"],
+    "url": "http://hadoop.apache.jp/hcj2019-program/",
+    "description": "3年ぶりとなるHadoopのカンファレンス。",
+    "tags": ["Hadoop", "Spark"]
+  },
+  {
+    "id": 22,
+    "name": "Zeroth AI カンファレンス",
+    "eventDate": ["2019/03/18"],
+    "url": "https://www.eventbrite.com/e/zeroth-ai-in-tickets-56542582386",
+    "description": "Zerothによる日本初開催のAI関連カンファレンス。",
+    "tags": ["AI", "Zeroth"]
+  },
+  {
+    "id": 23,
+    "name": "｛FUTURE｝STACK",
+    "eventDate": ["2019/03/14"],
+    "url": "https://www.newrelic.co.jp/futurestack",
+    "description": "New Relicによるクラウド導入やDevOpsに関する最新事例を紹介する日本国内向け初のカンファレンス。",
+    "tags": ["クラウド", "DevOps"]
+  },
+  {
+    "id": 24,
+    "name": "pixiv TECH SALON",
+    "eventDate": ["2019/03/05"],
+    "url": "https://techsalon.pixiv.co.jp/",
+    "description": "ピクシブのエンジニアが普段からお世話になっている方・お話してみたい方を招いて技術的知見とや10年後の未来について話す招待型イベント。",
+    "tags": ["pixiv"]
   }
 ]
