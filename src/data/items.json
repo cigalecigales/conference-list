@@ -190,5 +190,13 @@
     "url": "https://techsalon.pixiv.co.jp/",
     "description": "ピクシブのエンジニアが普段からお世話になっている方・お話してみたい方を招いて技術的知見とや10年後の未来について話す招待型イベント。",
     "tags": ["pixiv"]
+  },
+  {
+    "id": 25,
+    "name": "SeleniumConf Tokyo 2019",
+    "eventDate": ["2019/04/18", "2019/04/19"],
+    "url": "https://conf.selenium.jp/jp.html",
+    "description": "テスト自動化のエキスパートたちが集って行われる国際カンファレンス。",
+    "tags": ["Selenium"]
   }
 ]
