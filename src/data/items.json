@@ -198,5 +198,37 @@
     "url": "https://conf.selenium.jp/jp.html",
     "description": "テスト自動化のエキスパートたちが集って行われる国際カンファレンス。",
     "tags": ["Selenium"]
+  },
+  {
+    "id": 26,
+    "name": "PHPカンファレンス福岡2019",
+    "eventDate": ["2019/06/29"],
+    "url": "https://phpcon.fukuoka.jp/2019/",
+    "description": "福岡のIT業界の盛り上げ、九州のPHPerと全国のPHPerが交流できる場の提供...などなどを目的として開催されるPHPカンファレンス。",
+    "tags": ["PHP"]
+  },
+  {
+    "id": 27,
+    "name": "PHPerKaigi2019",
+    "eventDate": ["2019/03/29", "2019/03/30", "2019/03/31"],
+    "url": "https://phperkaigi.jp/2019/",
+    "description": "PHPerによるPHPerのためのお祭り。",
+    "tags": ["PHP"]
+  },
+  {
+    "id": 28,
+    "name": "Laravel JP Conference 2019",
+    "eventDate": ["2019/02/16"],
+    "url": "https://conference2019.laravel.jp/",
+    "description": "PHPのフレームワークであるLaravelをメインテーマとした技術カンファレンス。",
+    "tags": ["PHP", "Laravel"]
+  },
+  {
+    "id": 29,
+    "name": "IBM Cloud Community Summit 2019.04",
+    "eventDate": ["2019/04/26"],
+    "url": "https://bmxug.connpass.com/event/120823/",
+    "description": "「IBM Cloud」のユーザーコミュニティが主催する技術カンファレンス。",
+    "tags": ["IBM"]
   }
 ]
