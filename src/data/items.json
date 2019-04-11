@@ -230,5 +230,13 @@
     "url": "https://bmxug.connpass.com/event/120823/",
     "description": "「IBM Cloud」のユーザーコミュニティが主催する技術カンファレンス。",
     "tags": ["IBM"]
+  },
+  {
+    "id": 30,
+    "name": "Google Cloud Next ’19 in Tokyo",
+    "eventDate": ["2019/07/31", "2019/08/01"],
+    "url": "https://cloud.withgoogle.com/next/tokyo",
+    "description": "知識を深め、有益な情報を手に入れ、ビジネスの発展や、個人のスキル向上が加速するように設計されがGoogleのイベント。",
+    "tags": ["Google", "クラウド"]
   }
 ]
