@@ -238,5 +238,13 @@
     "url": "https://cloud.withgoogle.com/next/tokyo",
     "description": "知識を深め、有益な情報を手に入れ、ビジネスの発展や、個人のスキル向上が加速するように設計されがGoogleのイベント。",
     "tags": ["Google", "クラウド"]
+  },
+  {
+    "id": 31,
+    "name": "Android Bazaar and Conference 2019",
+    "eventDate": ["2019/05/26"],
+    "url": "https://abc.android-group.jp/2019s/",
+    "description": "国内最大のAndroidの祭典。",
+    "tags": ["Android"]
   }
 ]
