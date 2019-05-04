@@ -246,5 +246,29 @@
     "url": "https://abc.android-group.jp/2019s/",
     "description": "国内最大のAndroidの祭典。",
     "tags": ["Android"]
+  },
+  {
+    "id": 32,
+    "name": "Oracle Code Tokyo 2019",
+    "eventDate": ["2019/05/17"],
+    "url": "https://www.oracle.co.jp/events/code/2019/",
+    "description": "Oracleに限定せず、最新技術動向・ユースケース・トレンドに関するノウハウなどが入手できるイベント。",
+    "tags": ["Oracle"]
+  },
+  {
+    "id": 33,
+    "name": "de:code 2019",
+    "eventDate": ["2019/05/29", "2019/05/30"],
+    "url": "https://www.microsoft.com/ja-jp/events/decode/2019/default.aspx",
+    "description": "AI、Mixed Reality、サーバレス、コンテナ、IoT など、「今すぐ使えるテクノロジ」と「未来を創るテクノロジ」を知って体験できるセッションやプログラムが用意されているイベント。",
+    "tags": ["Microsoft"]
+  },
+  {
+    "id": 34,
+    "name": "CEDEC2019",
+    "eventDate": ["2019/09/04", "2019/09/05", "2019/09/06"],
+    "url": "http://cedec.cesa.or.jp/",
+    "description": "ゲームを中心とするコンピュータエンターテインメントの開発・ビジネス、技術、機器研究の技術向上・交流のためのカンファレンス。",
+    "tags": ["ゲーム"]
   }
 ]
