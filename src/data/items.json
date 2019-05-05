@@ -270,5 +270,13 @@
     "url": "http://cedec.cesa.or.jp/",
     "description": "ゲームを中心とするコンピュータエンターテインメントの開発・ビジネス、技術、機器研究の技術向上・交流のためのカンファレンス。",
     "tags": ["ゲーム"]
+  },
+  {
+    "id": 35,
+    "name": "INSIDE FRONTEND",
+    "eventDate": ["2019/05/18"],
+    "url": "https://inside-frontend.com/",
+    "description": "Web フロントエンドの現場とこれからをつなぐカンファレンス。",
+    "tags": ["フロントエンド"]
   }
 ]
