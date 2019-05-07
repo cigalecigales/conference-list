@@ -278,5 +278,13 @@
     "url": "https://inside-frontend.com/",
     "description": "Web フロントエンドの現場とこれからをつなぐカンファレンス。",
     "tags": ["フロントエンド"]
-  }
+  },
+  {
+    "id": 36,
+    "name": "Go Conference 2019 Spring",
+    "eventDate": ["2018/11/25"],
+    "url": "https://gocon.connpass.com/event/124530/",
+    "description": "Goに関するカンファレンス。",
+    "tags": ["Go"]
+  },
 ]
