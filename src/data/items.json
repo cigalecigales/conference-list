@@ -282,9 +282,25 @@
   {
     "id": 36,
     "name": "Go Conference 2019 Spring",
-    "eventDate": ["2018/11/25"],
+    "eventDate": ["2019/05/18"],
     "url": "https://gocon.connpass.com/event/124530/",
     "description": "Goに関するカンファレンス。",
     "tags": ["Go"]
   },
+  {
+    "id": 37,
+    "name": "TechCrunch Tokyo 2019",
+    "eventDate": ["2018/11/14", "2018/11/15"],
+    "url": "https://jp.techcrunch.com/2019/05/08/techcrunch-tokyo-2019/",
+    "description": "日本最大級のスタートアップの祭典。",
+    "tags": ["TechCrunch"]
+  },
+  {
+    "id": 38,
+    "name": "Vue Fes Japan 2019",
+    "eventDate": ["2019/10/12"],
+    "url": "https://vuefes.jp/2019/",
+    "description": "日本最大級のスタートアップの祭典。",
+    "tags": ["TechCrunch"]
+  }
 ]
