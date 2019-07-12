@@ -302,5 +302,29 @@
     "url": "https://vuefes.jp/2019/",
     "description": "日本最大級のスタートアップの祭典。",
     "tags": ["TechCrunch"]
+  },
+  {
+    "id": 39,
+    "name": "RubyWorld Conference 2019",
+    "eventDate": ["2019/11/07", "2019/11/08"],
+    "url": "https://webdirectionseast.org/pactera-pwa/",
+    "description": "Rubyに関するお話が聞けるカンファレンス。",
+    "tags": ["Ruby"]
+  },
+  {
+    "id": 40,
+    "name": "PostgreSQL Conference Japan 2019",
+    "eventDate": ["2019/11/15"],
+    "url": "https://www.postgresql.jp/jpug-pgcon2019",
+    "description": "PostgreSQLに関するカンファレンス。",
+    "tags": ["PostgreSQL"]
+  },
+  {
+    "id": 41,
+    "name": "Vue Fes Japan 2019",
+    "eventDate": ["2019/10/12"],
+    "url": "https://vuefes.jp/2019/",
+    "description": "開催２回目のVue.jsに関するカンファレンス。",
+    "tags": ["Vue.js"]
   }
 ]
