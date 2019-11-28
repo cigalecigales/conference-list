@@ -382,5 +382,29 @@
     "url": "https://maxjapan.adobe.com/",
     "description": "アドビ最大のクリエイティブイベント。",
     "tags": ["Adobe"]
+  },
+  {
+    "id": 49,
+    "name": "Object-Oriented Conference",
+    "eventDate": ["2020/2/16"],
+    "url": "https://ooc.connpass.com/event/129167/",
+    "description": "オブジェクト指向についてのカンファレンス。",
+    "tags": ["オブジェクト指向"]
+  },
+  {
+    "id": 50,
+    "name": "Developers Boost 2019",
+    "eventDate": ["2019/11/30"],
+    "url": "https://event.shoeisha.jp/devboost/20191130",
+    "description": "30歳以下の若手エンジニアのための技術カンファレンス。",
+    "tags": ["開発全般"]
+  },
+  {
+    "id": 51,
+    "name": "オープンソースカンファレンス 2019 Tokyo/Fall",
+    "eventDate": ["2019/11/23", "2019/11/24"],
+    "url": "https://www.ospn.jp/osc2019-fall/",
+    "description": "オープンソースに関するカンファレンス。",
+    "tags": ["OSS"]
   }
 ]
