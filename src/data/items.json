@@ -342,5 +342,45 @@
     "url": "https://www.tsconf.jp/",
     "description": "日本初となるTypeScriptのカンファレンス。",
     "tags": ["TypeScript"]
+  },
+  {
+    "id": 44,
+    "name": "PWA Night CONFERENCE 2020",
+    "eventDate": ["2020/2/1"],
+    "url": "https://conf2020.pwanight.jp/",
+    "description": "PWA Night主催のPWAに関するカンファレンス。",
+    "tags": ["PWA"]
+  },
+  {
+    "id": 45,
+    "name": "システムテスト自動化カンファレンス2019",
+    "eventDate": ["2019/11/30"],
+    "url": "https://testautomationresearch.connpass.com/event/144768/",
+    "description": "システムテストの自動化に特化したカンファレンス。",
+    "tags": ["テスト自動化"]
+  },
+  {
+    "id": 46,
+    "name": "JJUG CCC 2019 Fall",
+    "eventDate": ["2019/11/23"],
+    "url": "https://ccc2019fall.java-users.jp/",
+    "description": "Javaに関するカンファレンス。",
+    "tags": ["Java"]
+  },
+  {
+    "id": 47,
+    "name": "Monaca UG Conference 2019",
+    "eventDate": ["2019/10/26"],
+    "url": "https://monacaug.mobi/conference-2019/",
+    "description": "Monacaやその他Web技術に関するカンファレンス。",
+    "tags": ["Monaca"]
+  },
+  {
+    "id": 48,
+    "name": "Adobe MAX Japan 2019",
+    "eventDate": ["2019/12/3"],
+    "url": "https://maxjapan.adobe.com/",
+    "description": "アドビ最大のクリエイティブイベント。",
+    "tags": ["Adobe"]
   }
 ]
