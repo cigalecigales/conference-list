@@ -326,5 +326,21 @@
     "url": "https://vuefes.jp/2019/",
     "description": "開催２回目のVue.jsに関するカンファレンス。",
     "tags": ["Vue.js"]
+  },
+  {
+    "id": 42,
+    "name": "JS Conf JP 2019",
+    "eventDate": ["2019/11/30", "2019/12/1"],
+    "url": "https://jsconf.jp/2019/",
+    "description": "国内最大のJavaScriptカンファレンス。",
+    "tags": ["JavaScript"]
+  },
+  {
+    "id": 43,
+    "name": "TS Conf JP",
+    "eventDate": ["2020/2/22"],
+    "url": "https://www.tsconf.jp/",
+    "description": "日本初となるTypeScriptのカンファレンス。",
+    "tags": ["TypeScript"]
   }
 ]
