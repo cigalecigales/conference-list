@@ -406,5 +406,13 @@
     "url": "https://www.ospn.jp/osc2019-fall/",
     "description": "オープンソースに関するカンファレンス。",
     "tags": ["OSS"]
+  },
+  {
+    "id": 52,
+    "name": "Security Days 2020",
+    "eventDate": ["2020/1/31", "2020/2/5", "2020/2/6", "2020/2/7", "2020/2/20"],
+    "url": "https://www.f2ff.jp/event/secd-2020-01",
+    "description": "最近のセキュリティ動向や対策についてのイベント。",
+    "tags": ["セキュリティ"]
   }
 ]
