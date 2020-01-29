@@ -481,14 +481,6 @@
   },
   {
     "id": 61,
-    "name": "CakeFest",
-    "eventDate": ["2020/10/8"],
-    "url": "https://conference2020.laravel.jp/",
-    "description": "Laravelに関するカンファレンス。",
-    "tags": ["Laravel", "PHP"]
-  },
-  {
-    "id": 62,
     "name": "React Conf Japan",
     "eventDate": ["2020/3/21"],
     "url": "https://www.reactconf.jp/",
@@ -496,7 +488,7 @@
     "tags": ["React"]
   },
   {
-    "id": 63,
+    "id": 62,
     "name": "DroidKaigi 2020",
     "eventDate": ["2020/2/20", "2020/2/21"],
     "url": "https://droidkaigi.jp/2020/",
@@ -504,7 +496,7 @@
     "tags": ["Android"]
   },
   {
-    "id": 64,
+    "id": 63,
     "name": "AWS Summit Tokyo 2020",
     "eventDate": ["2020/5/13", "2020/5/14", "2020/5/15", "2020/6/30"],
     "url": "https://aws.amazon.com/jp/summits/2020/",
