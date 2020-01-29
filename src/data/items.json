@@ -414,5 +414,101 @@
     "url": "https://www.f2ff.jp/event/secd-2020-01",
     "description": "最近のセキュリティ動向や対策についてのイベント。",
     "tags": ["セキュリティ"]
-  }
+  },
+  {
+    "id": 53,
+    "name": "PyCon JP 2020",
+    "eventDate": ["2020/8/28", "2020/8/29"],
+    "url": "https://www.pycon.jp/",
+    "description": "Pythonに関するカンファレンス。",
+    "tags": ["Python"]
+  },
+  {
+    "id": 54,
+    "name": "PHP Conference Japan 2020 Re:born",
+    "eventDate": ["2020/8/28", "2020/8/29"],
+    "url": "https://phpcon.php.gr.jp/2020/",
+    "description": "PHPに関するカンファレンス。",
+    "tags": ["PHP"]
+  },
+  {
+    "id": 55,
+    "name": "PHPerKaigi",
+    "eventDate": ["2020/2/9", "2020/2/10", "2020/2/11"],
+    "url": "https://phperkaigi.jp/2020/",
+    "description": "PHPに関するカンファレンス。",
+    "tags": ["PHP"]
+  },
+  {
+    "id": 56,
+    "name": "RubyKaigi 2020",
+    "eventDate": ["2020/4/9", "2020/4/10", "2020/4/11"],
+    "url": "https://rubykaigi.org/2020/",
+    "description": "Rubyに関するカンファレンス。",
+    "tags": ["Ruby"]
+  },
+  {
+    "id": 57,
+    "name": "YAPC::Kyoto 2020",
+    "eventDate": ["2020/3/27", "2020/3/28", "2020/3/29"],
+    "url": "https://yapcjapan.org/2020kyoto/",
+    "description": "Perlに関するカンファレンス。",
+    "tags": ["Perl"]
+  },
+  {
+    "id": 58,
+    "name": "try! Swift",
+    "eventDate": ["2020/3/18", "2020/3/19", "2020/3/20"],
+    "url": "https://yapcjapan.org/2020kyoto/",
+    "description": "Swiftに関するカンファレンス。",
+    "tags": ["Swift"]
+  },
+  {
+    "id": 59,
+    "name": "DjangoCongress JP 2020",
+    "eventDate": ["2020/6/20"],
+    "url": "https://djangocongress.jp/",
+    "description": "Djangoに関するカンファレンス。",
+    "tags": ["Django", "Python"]
+  },
+  {
+    "id": 60,
+    "name": "Laravel JP Conference 2020",
+    "eventDate": ["2020/6/20"],
+    "url": "https://conference2020.laravel.jp/",
+    "description": "Laravelに関するカンファレンス。",
+    "tags": ["Laravel", "PHP"]
+  },
+  {
+    "id": 61,
+    "name": "CakeFest",
+    "eventDate": ["2020/10/8"],
+    "url": "https://conference2020.laravel.jp/",
+    "description": "Laravelに関するカンファレンス。",
+    "tags": ["Laravel", "PHP"]
+  },
+  {
+    "id": 62,
+    "name": "React Conf Japan",
+    "eventDate": ["2020/3/21"],
+    "url": "https://www.reactconf.jp/",
+    "description": "Reactに関するカンファレンス。",
+    "tags": ["React"]
+  },
+  {
+    "id": 63,
+    "name": "DroidKaigi 2020",
+    "eventDate": ["2020/2/20", "2020/2/21"],
+    "url": "https://droidkaigi.jp/2020/",
+    "description": "Androidに関するカンファレンス。",
+    "tags": ["Android"]
+  },
+  {
+    "id": 64,
+    "name": "AWS Summit Tokyo 2020",
+    "eventDate": ["2020/5/13", "2020/5/14", "2020/5/15", "2020/6/30"],
+    "url": "https://aws.amazon.com/jp/summits/2020/",
+    "description": "AWSに関する情報交換・コラボレーション・学習を行うことができるカンファレンス。",
+    "tags": ["AWS"]
+  },
 ]
