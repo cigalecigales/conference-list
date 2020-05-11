@@ -426,7 +426,7 @@
   {
     "id": 54,
     "name": "PHP Conference Japan 2020 Re:born",
-    "eventDate": ["2020/8/28", "2020/8/29"],
+    "eventDate": ["2020/10/11"],
     "url": "https://phpcon.php.gr.jp/2020/",
     "description": "PHPに関するカンファレンス。",
     "tags": ["PHP"]
@@ -468,7 +468,7 @@
     "name": "DjangoCongress JP 2020",
     "eventDate": ["2020/6/20"],
     "url": "https://djangocongress.jp/",
-    "description": "Djangoに関するカンファレンス。",
+    "description": "【COVID-19による中止】Djangoに関するカンファレンス。",
     "tags": ["Django", "Python"]
   },
   {
@@ -476,7 +476,7 @@
     "name": "Laravel JP Conference 2020",
     "eventDate": ["2020/6/20"],
     "url": "https://conference2020.laravel.jp/",
-    "description": "Laravelに関するカンファレンス。",
+    "description": "【COVID-19による中止】Laravelに関するカンファレンス。",
     "tags": ["Laravel", "PHP"]
   },
   {
@@ -500,7 +500,15 @@
     "name": "AWS Summit Tokyo 2020",
     "eventDate": ["2020/5/13", "2020/5/14", "2020/5/15", "2020/6/30"],
     "url": "https://aws.amazon.com/jp/summits/2020/",
-    "description": "AWSに関する情報交換・コラボレーション・学習を行うことができるカンファレンス。",
+    "description": "【COVID-19による中止】AWSに関する情報交換・コラボレーション・学習を行うことができるカンファレンス。",
     "tags": ["AWS"]
+  },
+  {
+    "id": 64,
+    "name": "WWDC20",
+    "eventDate": ["2020/6/22"],
+    "url": "https://developer.apple.com/wwdc20/",
+    "description": "Appleによる開発者向けイベント。今年はオンライン開催予定で参加費無料。",
+    "tags": ["Apple"]
   }
 ]
