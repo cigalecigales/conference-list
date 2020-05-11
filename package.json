@@ -19,7 +19,9 @@
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.5.21",
     "set-value": ">=2.0.1",
-    "serialize-javascript": ">=2.1.1"
+    "serialize-javascript": ">=2.1.1",
+    "minimist": ">=1.2.3",
+    "acorn": ">=6.4.1"
   },
   "eslintConfig": {
     "root": true,
