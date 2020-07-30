@@ -420,7 +420,7 @@
     "name": "PyCon JP 2020",
     "eventDate": ["2020/8/28", "2020/8/29"],
     "url": "https://www.pycon.jp/",
-    "description": "Pythonに関するカンファレンス。",
+    "description": "Pythonに関するカンファレンス。オンライン開催予定。",
     "tags": ["Python"]
   },
   {
@@ -510,5 +510,13 @@
     "url": "https://developer.apple.com/wwdc20/",
     "description": "Appleによる開発者向けイベント。今年はオンライン開催予定で参加費無料。",
     "tags": ["Apple"]
+  },
+  {
+    "id": 65,
+    "name": "VS Code Conference Japan",
+    "eventDate": ["2020/11/21"],
+    "url": "https://vscode.connpass.com/event/184441/",
+    "description": "VS Code 5周年イベント。オンライン開催予定。",
+    "tags": ["VS Code"]
   }
 ]

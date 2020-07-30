@@ -67,8 +67,8 @@ export default {
 
 <style scoped>
 .card {
-  background: #ffffff;
-  border: 1px solid #dddddd;
+  background: #4ea0ae;
+  /* border: 1px solid #dddddd; */
   border-radius: 3px;
   padding: 10px;
   margin-bottom: 10px;
@@ -77,19 +77,19 @@ export default {
 }
 
 .card:hover {
-  background: #ff1493 !important;
+  background: #fa26a0 !important;
   cursor: pointer;
   color: #ffffff !important;
 }
 
 .card.today {
-  background: #ff1493 !important;
+  background: #fa26a0 !important;
   cursor: pointer;
   color: #ffffff !important;
 }
 
 .card.future {
-  background: #FFF05A;
+  background: #fff48f;
 }
 
 .card > .name {

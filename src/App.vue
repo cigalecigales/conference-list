@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <div class="logo_area">
-      <!-- <img alt="Vue logo" src="./assets/logo.png" style="width: 100px;"> -->
       <h1>Conference List</h1>
     </div>
     <div class="sub_area">日本国内で開催されるカンファレンス等のIT系大型イベントのみを集めたリスト</div>
@@ -76,9 +75,13 @@ export default {
 
         // 入力欄が空でない場合
         if (this.filterText) {
+          const lowerFilterText = this.filterText.toLowerCase();
+          const lowerName = d.name.toLowerCase();
+          const lowerDescription = d.description.toLowerCase();
           if (
-            !d.name.includes(this.filterText) ||
-            !d.description.includes(this.filterText)
+
+            !lowerName.includes(lowerFilterText) ||
+            !lowerDescription.includes(lowerFilterText)
           ) {
             return;
           }
@@ -132,7 +135,8 @@ export default {
 
 html,
 body {
-  background: #fdfdfd;
+  background: #3b2e5a;
+  color: #ffffff;
 }
 
 .logo_area > h1 {
@@ -159,11 +163,11 @@ body {
   width: 100%;
   padding: 5px 8px;
   border-radius: 3px;
-  border: 1px solid #ffa500;
+  border: 1px solid #ff9a76;
 }
 
 .input_text:focus {
-  border: 1px solid #f57868;
+  border: 1px solid #f96d80;
 }
 
 .card_area {
@@ -185,7 +189,7 @@ body {
   background: linear-gradient(
       to top right,
       rgba(255, 255, 255, 0) 50%,
-      #ffa500 50.5%
+      #3da4ab 50.5%
     )
     no-repeat top left/100% 100%;
   width: 60px;

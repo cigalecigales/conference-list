@@ -18,10 +18,10 @@ export default {
 <style scoped>
 .tag {
   display: inline-block;
-  background: #008B8B;
+  background: #394989;
   color: #ffffff;
-  padding: 3px 8px;
-  border-radius: 8px;
+  padding: 3px 12px;
+  border-radius: 5px;
   margin-left: 5px;
   margin-right: 5px;
 }
