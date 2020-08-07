@@ -518,5 +518,13 @@
     "url": "https://vscode.connpass.com/event/184441/",
     "description": "VS Code 5周年イベント。オンライン開催予定。",
     "tags": ["VS Code"]
+  },
+  {
+    "id": 66,
+    "name": "JJUG CCC 2020 Fall",
+    "eventDate": ["2020/11/07"],
+    "url": "https://ccc2020fall.java-users.jp/",
+    "description": "Javaに関するカンファレンス。今回はオンラインにて開催予定。",
+    "tags": ["Java"]
   }
 ]
