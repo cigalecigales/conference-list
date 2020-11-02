@@ -526,5 +526,21 @@
     "url": "https://ccc2020fall.java-users.jp/",
     "description": "Javaに関するカンファレンス。今回はオンラインにて開催予定。",
     "tags": ["Java"]
+  },
+  {
+    "id": 67,
+    "name": "LINE DEVELOPER DAY 2020",
+    "eventDate": ["2020/11/25", "2020/11/26", "2020/11/27"],
+    "url": "https://linedevday.linecorp.com/2020/ja",
+    "description": "LINEが運営する様々なサービスの技術領域でのチャレンジや取り組みなどをご紹介する技術カンファレンス。",
+    "tags": ["LINE"]
+  },
+  {
+    "id": 68,
+    "name": "ソフトウェアテスト自動化カンファレンス2020",
+    "eventDate": ["2020/12/05"],
+    "url": "https://testautomationresearch.connpass.com/event/191996/",
+    "description": "システムテストの自動化に特化したカンファレンス。",
+    "tags": ["テスト自動化"]
   }
 ]
