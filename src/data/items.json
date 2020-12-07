@@ -426,7 +426,7 @@
   {
     "id": 54,
     "name": "PHP Conference Japan 2020 Re:born",
-    "eventDate": ["2020/10/11"],
+    "eventDate": ["2020/12/12"],
     "url": "https://phpcon.php.gr.jp/2020/",
     "description": "PHPに関するカンファレンス。",
     "tags": ["PHP"]
@@ -518,5 +518,29 @@
     "url": "https://vscode.connpass.com/event/184441/",
     "description": "VS Code 5周年イベント。オンライン開催予定。",
     "tags": ["VS Code"]
+  },
+  {
+    "id": 66,
+    "name": "ソフトウェアテスト自動化カンファレンス2020",
+    "eventDate": ["2020/12/5"],
+    "url": "https://testautomationresearch.connpass.com/event/191996/",
+    "description": "システムテストの自動化に特化したカンファレンス。",
+    "tags": ["テスト自動化"]
+  },
+  {
+    "id": 67,
+    "name": "PostgreSQL Conference Japan 2020",
+    "eventDate": ["2020/11/13"],
+    "url": "https://www.postgresql.jp/jpug-pgcon2020",
+    "description": "PostgreSQLに関するカンファレンス。",
+    "tags": ["PostgreSQL"]
+  },
+  {
+    "id": 68,
+    "name": "Yahoo! JAPAN Tech Conference 2021",
+    "eventDate": ["2021/1/22"],
+    "url": "https://techconference.yahoo.co.jp/2021/",
+    "description": "ヤフーの技術領域の取り組みが聞けるカンファレンスです。",
+    "tags": ["Yahoo!"]
   }
 ]
