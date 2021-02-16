@@ -558,5 +558,13 @@
     "url": "https://techconference.yahoo.co.jp/2021/",
     "description": "ヤフーの技術領域の取り組みが聞けるカンファレンスです。",
     "tags": ["Yahoo!"]
+  },
+  {
+    "id": 71,
+    "name": "PWA Night CONFERENCE 2021",
+    "eventDate": ["2021/6/26"],
+    "url": "https://conf2021.pwanight.jp/",
+    "description": "PWA Night主催のPWAに関するカンファレンス。",
+    "tags": ["PWA"]
   }
 ]
